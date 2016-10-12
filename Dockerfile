@@ -8,7 +8,7 @@ RUN sudo dpkg -i apt-ntop.deb
 RUN rm -rf apt-ntop.deb
 
 RUN apt-get update
-RUN apt-get -y -q install ntopng libpcap0.8 libmysqlclient18
+RUN apt-get -y -q install ntopng libpcap0.8 libmysqlclient18 libldap-2.4-2
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
