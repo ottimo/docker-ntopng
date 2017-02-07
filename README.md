@@ -1,4 +1,4 @@
-# rungeict/ntopng
+# vostronet/ntopng
 
 ## Introduction
 ntopng is the next generation version of the original ntop, a network traffic probe that shows the network usage, similar to what the popular top Unix command does. ntopng is based on libpcap and it has been written in a portable way in order to virtually run on every Unix platform, MacOSX and on Windows as well.
@@ -14,5 +14,5 @@ http://www.ntop.org/products/traffic-analysis/ntop/
 
 ### Command Line
  ```
-docker run --net=host -t -p 3000:3000 rungeict/ntopng <ntopng arguments>
+docker run --net=host -t -p 3000:3000 vostronet/ntopng <ntopng arguments>
  ```
