@@ -14,5 +14,4 @@ COPY fritzdump.sh /
 
 EXPOSE 3000
 
-#CMD ["ntopng"]
-CMD ["/fritzdump.sh"]
+CMD ["ntopng"]
